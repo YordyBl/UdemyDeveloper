@@ -26,3 +26,10 @@ font-family: 'Overpass Mono', monospace;
 span {
     font-size: 2rem;
 } 
+.contenedor{
+  width: 120rem;
+  margin: 0 auto;
+}
+.navFondo{
+    background-color: var(--secundario);
+}
