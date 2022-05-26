@@ -1,45 +1,58 @@
-:root{
-    --blanco:#FFFFFF;
-    --oscuro:#212121;
-    --primario:#FFC107;
-    --secundario:#0097A7;
-    --gris:#757575;
+:root {
+    --blanco: #FFFFFF;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
-body{
-    font-size: 16px; 
+
+body {
+    font-size: 16px;
     /**
     10px=1rem
     **/
     font-family: 'Krub', sans-serif;
-font-family: 'Overpass Mono', monospace;
+    font-family: 'Overpass Mono', monospace;
 }
+
 .titulo {
     text-align: center;
     font-size: 3rem;
-    
     font-weight: 400;
-} 
+}
 
 span {
     font-size: 2rem;
-} 
+}
 
-.navPrincipal{
-    padding:2rem;
+.navPrincipal {
+
     width: 120rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 
-   
+
 }
-.navPrincipal a{
+
+.navPrincipal a {
     color: var(--blanco);
     text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
 }
-.navFondo{
+
+.navFondo {
     background-color: var(--secundario);
+}
+
+.navPrincipal a:hover {
+
+    background-color: var(--primario);
+
 }
